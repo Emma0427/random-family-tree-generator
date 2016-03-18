@@ -253,7 +253,7 @@ function getdage(myear , mage) { // get age they die at
     var temp1;
     (temp1a < temp1b) ? temp1=temp1a : temp1=temp1b; // temp1 is the low of 2d20
 
-    var temp2=rollD10;
+    var temp2=rollD(10);
 
     var dage;
     if (temp2<2) {  // 20% dies as a child or teenager
